@@ -25,7 +25,7 @@
 
   <body class="bg-dark">
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top">
+      <nav class="navbar fixed-top navbar-expand-lg p-2">
         <div class="container-fluid">
           <a class="navbar-brand text-white" href="index.html">
             <img
@@ -117,15 +117,12 @@
           </div>
         </div>
       </div>
-      <div class="text-center p-2 d-grid justify-content-center">
-        <h2>Entre em contato conosco!</h2>
-
+      <div class="form-container text-center d-grid m-auto p-5 row rounded">
+        <h3 class="mb-4">Entre em contato conosco!</h3>
         <form action="sobre.html" method="get" id="form">
           <div class="row mb-3">
-            <div>
-              <label for="name" class="form-label">Nome:</label>
-            </div>
-            <div>
+            <label for="name" class="col-sm-3 col-form-label">Nome:</label>
+            <div class="col-sm-9">
               <input
                 type="text"
                 class="form-control"
@@ -134,10 +131,9 @@
               />
             </div>
           </div>
-          <br />
           <div class="row mb-3">
-            <div><label for="email" class="form-label">E-mail:</label></div>
-            <div>
+            <label for="email" class="col-sm-3 col-form-label">E-mail:</label>
+            <div class="col-sm-9">
               <input
                 type="email"
                 class="form-control"
@@ -147,7 +143,6 @@
             </div>
           </div>
         </form>
-        <br />
         <button
           type="submit"
           class="btn btn-success m-auto"
@@ -160,7 +155,7 @@
       </div>
     </main>
 
-    <footer class="container-fluid text-center">
+    <footer class="container-fluid text-center w-100">
       <div class="row">
         <div class="col-sm-4">
           <h3>Nos encontre em:</h3>
