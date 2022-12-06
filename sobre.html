@@ -24,100 +24,101 @@
   </head>
 
   <body class="bg-dark">
-    <header>
-      <nav class="navbar fixed-top navbar-expand-lg p-2">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="index.html">
-            <img
-              src="media/favicon.ico"
-              alt="Logo"
-              width="24"
-              height="24"
-              class="d-inline-block align-text-top"
-            />
-            Ad Astra
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="planetas.html">Planetas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="sobre.html">Sobre</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar fixed-top navbar-expand-lg p-2">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">
+          <img
+            src="media/favicon.ico"
+            alt="Logo"
+            width="24"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Ad Astra
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="planetas.html">Planetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <main>
-      <div class="title-container" id="bg-sobre">
-        <div
+      <header class="title-container" id="bg-sobre">
+        <section
           class="landing-page d-flex flex-column justify-content-center align-items-center position-absolute w-100 h-100"
         >
           <h1 class="fs-1">SOBRE A EMPRESA</h1>
-        </div>
-      </div>
+        </section>
+      </header>
 
-      <div class="padding">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3">
-              <img
-                src="media/developer.svg"
-                alt="Desenvolvedor"
-                class="ill-img"
-              />
-            </div>
-            <div class="col-sm-8 text-right align-middle">
-              <h2>Thiago Serafina Possamai</h2>
-              <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                lacinia posuere augue. Mauris sodales lorem in mi dapibus, a
-                aliquet metus tempus. Phasellus tincidunt orci quis viverra
-                efficitur.
-              </p>
-            </div>
+      <section class="container p-5">
+        <div class="row">
+          <div class="col-sm-3">
+            <img
+              src="media/developer.svg"
+              alt="Desenvolvedor"
+              class="ill-img"
+            />
+          </div>
+          <div class="col-sm-8 text-right align-middle">
+            <h2>Thiago Serafina Possamai</h2>
+            <br />
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+              lacinia posuere augue. Mauris sodales lorem in mi dapibus, a
+              aliquet metus tempus. Phasellus tincidunt orci quis viverra
+              efficitur.
+            </p>
           </div>
         </div>
-      </div>
-      <div class="padding">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-3">
-              <img src="media/location.svg" alt="Localização" class="ill-img" />
-            </div>
-            <div class="col-sm-8 text-right">
-              <h2>Endereço</h2>
-              <span
-                >Av. Universitária, 1105, Bairro Universitário, 88806-000 -
-                Criciúma-SC</span
-              >
-            </div>
+      </section>
+
+      <section class="container p-5">
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="media/location.svg" alt="Localização" class="ill-img" />
+          </div>
+          <div class="col-sm-8 text-right">
+            <h2>Endereço</h2>
+            <br />
+            <span
+              >Av. Universitária, 1105, Bairro Universitário, 88806-000 -
+              Criciúma-SC</span
+            >
           </div>
         </div>
-      </div>
-      <div class="form-container text-center d-grid m-auto p-5 row rounded">
+      </section>
+
+      <section
+        class="form-container text-center d-grid m-auto p-4 pt-5 pb-5 row rounded"
+      >
         <h3 class="mb-4">Entre em contato conosco!</h3>
         <form action="sobre.html" method="get" id="form">
           <div class="row mb-3">
@@ -152,12 +153,13 @@
         >
           Enviar
         </button>
-      </div>
+      </section>
+      <br />
     </main>
 
     <footer class="container-fluid text-center w-100">
-      <div class="row">
-        <div class="col-sm-4">
+      <section class="row">
+        <article class="col-sm-4">
           <h3>Nos encontre em:</h3>
           <br />
           <p>
@@ -165,23 +167,23 @@
             Bairro Universitário, <br />
             88806-000 - Criciúma-SC.
           </p>
-        </div>
-        <div class="col-sm-4">
+        </article>
+        <article class="col-sm-4">
           <h3>Conecte-se</h3>
           <br />
           <a href="#" class="fa fa-instagram fs-3 p-2"></a>
           <a href="#" class="fa fa-twitter fs-3 p-2"></a>
           <a href="#" class="fa fa-linkedin fs-3 p-2"></a>
-        </div>
-        <div class="col-sm-4">
+        </article>
+        <article class="col-sm-4">
           <img src="media/rocket.png" alt="Foguete" class="icon" />
-        </div>
-        <div class="text-center">
+        </article>
+        <article class="text-center mt-3">
           <span>
             &copy; Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </span>
-        </div>
-      </div>
+        </article>
+      </section>
     </footer>
 
     <script

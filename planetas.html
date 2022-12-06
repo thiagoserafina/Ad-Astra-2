@@ -24,59 +24,59 @@
   </head>
 
   <body class="bg-dark">
-    <header>
-      <nav class="navbar fixed-top navbar-expand-lg p-2">
-        <div class="container-fluid">
-          <a class="navbar-brand text-white" href="index.html">
-            <img
-              src="media/favicon.ico"
-              alt="Logo"
-              width="24"
-              height="24"
-              class="d-inline-block align-text-top"
-            />
-            Ad Astra
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="planetas.html">Planetas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre.html">Sobre</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar fixed-top navbar-expand-lg p-2">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="index.html">
+          <img
+            src="media/favicon.ico"
+            alt="Logo"
+            width="24"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Ad Astra
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="planetas.html">Planetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <main>
-      <div class="title-container" id="bg-planetas">
-        <div
+      <header class="title-container" id="bg-planetas">
+        <section
           class="landing-page d-flex flex-column justify-content-center align-items-center position-absolute w-100 h-100"
         >
           <h1>PLANETAS</h1>
-          <div class="text text-center">
+          <hr class="opacity-100 w-25" />
+          <article class="text text-center">
             <iframe
               class="mt-3 rounded"
               width="560"
@@ -87,14 +87,153 @@
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
+          </article>
+        </section>
+      </header>
+
+      <section class="row d-flex flex-row m-auto w-100 p-5 justify-content-center">
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/mercury.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Mercúrio</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
+        </article>
+
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/venus.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Vênus</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/earth.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Terra</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/mars.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Marte</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/jupiter.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Júpiter</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/saturn.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Saturno</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/uranus.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Urano</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/neptune.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Netuno</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <article class="col-sm-3 m-3">
+          <div class="card rounded p-3" style="width: 23rem">
+            <img src="./media/pluto.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h3 class="text-center">Plutão</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                repellendus asperiores vitae quos pariatur, et libero magnam
+                sequi reprehenderit deserunt, facilis qui nam labore accusamus
+                sed impedit minus. Sint, fuga!
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <h3 class="text-center mt-4">Em breve!</h3>
+      </section>
     </main>
 
-    <footer class="container-fluid text-center">
-      <div class="row">
-        <div class="col-sm-4">
+    <footer class="container-fluid text-center w-100">
+      <section class="row">
+        <article class="col-sm-4">
           <h3>Nos encontre em:</h3>
           <br />
           <p>
@@ -102,23 +241,23 @@
             Bairro Universitário, <br />
             88806-000 - Criciúma-SC.
           </p>
-        </div>
-        <div class="col-sm-4">
+        </article>
+        <article class="col-sm-4">
           <h3>Conecte-se</h3>
           <br />
           <a href="#" class="fa fa-instagram fs-3 p-2"></a>
           <a href="#" class="fa fa-twitter fs-3 p-2"></a>
           <a href="#" class="fa fa-linkedin fs-3 p-2"></a>
-        </div>
-        <div class="col-sm-4">
+        </article>
+        <article class="col-sm-4">
           <img src="media/rocket.png" alt="Foguete" class="icon" />
-        </div>
-        <div class="text-center">
+        </article>
+        <article class="text-center mt-3">
           <span>
             &copy; Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </span>
-        </div>
-      </div>
+        </article>
+      </section>
     </footer>
 
     <script

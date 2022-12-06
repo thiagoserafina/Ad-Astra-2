@@ -35,6 +35,15 @@ body {
   font-family: "Silkscreen", sans-serif;
 }
 
+main {
+  background: rgb(33, 6, 74);
+  background: linear-gradient(
+    0deg,
+    rgba(33, 6, 74, 1) 0%,
+    rgba(4, 0, 66, 1) 100%
+  );
+}
+
 .title-container {
   background-image: linear-gradient(to bottom, transparent, rgb(41, 46, 51)),
     url("./media/sky-space-dark-galaxy.jpg");
@@ -45,13 +54,9 @@ body {
   color: white;
 }
 
-main {
-  background: rgb(33, 6, 74);
-  background: linear-gradient(
-    0deg,
-    rgba(33, 6, 74, 1) 0%,
-    rgba(4, 0, 66, 1) 100%
-  );
+.landing-page {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "Silkscreen", sans-serif;
 }
 
 #bg-sobre {
@@ -59,12 +64,8 @@ main {
 }
 
 #bg-planetas {
-  background-image: url(./media/solar-system.webp);
-}
-
-.landing-page {
-  background-color: rgba(0, 0, 0, 0.2);
-  font-family: "Silkscreen", sans-serif;
+  background-image: url(./media/qtidm33lnd981.webp);
+  background-position: center;
 }
 
 .ill-img {
@@ -75,10 +76,18 @@ main {
   padding: 50px;
 }
 
+.card,
+.card-body {
+  background-color: #2e2e2e !important;
+}
+
+.card h3 {
+  font-family: "Silkscreen", sans-serif;
+}
+
 footer {
   background-color: rgb(46, 46, 46);
   padding: 5% 5% 0% 5%;
-  color: #fff;
 }
 
 .fa {
