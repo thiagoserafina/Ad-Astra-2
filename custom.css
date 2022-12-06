@@ -44,7 +44,7 @@ main {
   );
 }
 
-.title-container {
+.landing-page {
   background-image: linear-gradient(to bottom, transparent, rgb(41, 46, 51)),
     url("./media/sky-space-dark-galaxy.jpg");
   background-size: cover;
@@ -52,9 +52,6 @@ main {
   min-height: 100vh;
   position: relative;
   color: white;
-}
-
-.landing-page {
   background-color: rgba(0, 0, 0, 0.2);
   font-family: "Silkscreen", sans-serif;
 }
@@ -64,7 +61,7 @@ main {
 }
 
 #bg-planetas {
-  background-image: url(./media/qtidm33lnd981.webp);
+  background-image: url(./media/planets-bg.webp);
   background-position: center;
 }
 
@@ -106,10 +103,20 @@ footer {
 }
 
 .form-container {
-  padding: 25px;
-  width: 30%;
-  border-radius: 10px;
-  background-color: #222;
+  width: 425px;
+  border-radius: 25px;
+  background-color: #2f2e41;
+}
+
+.form-container .btn {
+  margin: 25px 0 0;
+  line-height: 30px;
+  width: 100px;
+  background-color: #120346;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  appearance: none;
 }
 
 footer a {
